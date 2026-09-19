@@ -245,6 +245,8 @@ header {
     border-right-color: var(--primary);
     border-radius: 50%;
     transform: rotate(18deg);
+    z-index: 1;
+    pointer-events: none;
 }
 
 .home-image img {
